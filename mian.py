@@ -20,3 +20,10 @@ STEP_SIZE = 3
 
 sentences = []
 next_characters = []
+
+for i in range(0, len(text) - SEQ_LENGHT, STEP_SIZE)
+ setences.append(text[i: i+SEQ_LENGHT])
+ next_character.append(test[i+SEQ_LENGHT])
+
+
+
